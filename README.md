@@ -1,6 +1,6 @@
 # Todo List 
 
-A aplicação é uma lista de tarefas desenvolvida em React que permite criar, organizar e acompanhar atividades. O usuário pode cadastrar tarefas com datas, horários e cores personalizadas, visualizar o tempo restante por meio de um cronômetro regressivo e identificar tarefas expiradas com destaque visual.
+A aplicação é uma lista de tarefas desenvolvida em React que permite criar, organizar e acompanhar atividades. O usuário pode cadastrar tarefas com datas, horários e inserir cores personalizadas, visualizar o tempo restante por meio de um cronômetro regressivo e identificar tarefas expiradas com destaque visual.
 
 ---
 
@@ -62,12 +62,12 @@ npm -v
 
 1. Clone o repositório:
 ```
-git clone <https://github.com/leeoze/Lista-de-Tarefas.gitIO>
+git clone https://github.com/leeoze/Lista-de-Tarefas.git
 ```
 
 2. Acesse a pasta do projeto:
 ```
-cd todo-list-react
+cd Todo List
 ```
 
 3. Instale as dependências:
