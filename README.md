@@ -62,7 +62,7 @@ npm -v
 
 1. Clone o repositório:
 ```
-git clone <URL_DO_REPOSITORIO>
+git clone <https://github.com/leeoze/Lista-de-Tarefas.gitIO>
 ```
 
 2. Acesse a pasta do projeto:
