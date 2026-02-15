@@ -67,7 +67,7 @@ git clone https://github.com/leeoze/Lista-de-Tarefas.git
 
 2. Acesse a pasta do projeto:
 ```
-cd Todo List
+cd Lista-de-Tarefas/Todo List
 ```
 
 3. Instale as dependências:
