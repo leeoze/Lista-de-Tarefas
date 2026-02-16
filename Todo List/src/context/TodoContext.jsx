@@ -36,13 +36,17 @@ export function TodoProvider({ children }) {
   }
 
   /*
-    Filtragem + ordenação decrescente centralizada,
-    evitando duplicação de lógica nos componentes.
+    Filtragem + ordenação centralizada.
+    Ordena pela data de término (endDate) em ordem crescente:
+    tarefas que vencem primeiro aparecem primeiro.
+    Se não houver endDate, a tarefa vai para o final da lista.
   */
   const filteredTodos = useMemo(() => {
-    const ordered = [...todos].sort(
-      (a, b) => b.createdAt - a.createdAt
-    );
+    const ordered = [...todos].sort((a, b) => {
+      const dateA = a.endDate ? new Date(a.endDate) : new Date(8640000000000000); // máximo possível
+      const dateB = b.endDate ? new Date(b.endDate) : new Date(8640000000000000);
+      return dateA - dateB;
+    });
 
     if (filter === "pending") return ordered.filter(t => t.status === "pending");
     if (filter === "completed") return ordered.filter(t => t.status === "completed");

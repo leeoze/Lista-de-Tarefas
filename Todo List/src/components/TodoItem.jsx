@@ -1,7 +1,8 @@
 import { memo } from "react";
 import { useTodos } from "../context/TodoContext";
 import { useCountdown } from "../hooks/useCountdown";
-import { formatDateTime, isExpired } from "../utils/dateUtils";
+import { isExpired, formatDateTime } from "../utils/dateUtils";
+
 
 /*
   Item individual da lista.
