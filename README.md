@@ -1,4 +1,4 @@
-# Todo List 
+# Lista de Tarefas
 
 A aplicação é uma lista de tarefas desenvolvida em React que permite criar, organizar e acompanhar atividades. O usuário pode cadastrar tarefas com datas, horários e inserir cores personalizadas, visualizar o tempo restante por meio de um cronômetro regressivo e identificar tarefas expiradas com destaque visual.
 
