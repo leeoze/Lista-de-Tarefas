@@ -49,15 +49,6 @@ A aplicação é uma lista de tarefas desenvolvida em React que permite criar, o
 
 ##  Como Rodar o Projeto Localmente
 
-### Pré-requisitos
-- Node.js instalado 
-
-Verifique no terminal:
-```
-node -v
-npm -v
-```
-
 ### Passo a passo
 
 1. Clone o repositório:
@@ -67,7 +58,7 @@ git clone https://github.com/leeoze/Lista-de-Tarefas.git
 
 2. Acesse a pasta do projeto:
 ```
-cd Lista-de-Tarefas/Todo List
+cd Lista-de-Tarefas
 ```
 
 3. Instale as dependências:
